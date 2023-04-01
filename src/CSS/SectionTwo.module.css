@@ -1,0 +1,147 @@
+.sectionTwo{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+}
+
+.sectionTwoTop{
+    width:60%;
+    height:200px;
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: start;
+ }
+
+.textBox{
+    width:25%;
+    height:100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 0px;
+     
+}
+
+.O1{
+    font-size: 110px;
+    font-weight: 400;
+    margin:0px;
+    padding:0px;
+    color:#697A97;
+    margin-bottom: 0px;;
+
+
+}
+
+.Histroy{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+.historyText{
+    padding: 0;
+    margin:0;
+    font-size: 20px;
+    color:#414F6B;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.square{
+    width:15px;
+    height:15px;
+    background: #6D7E98;
+    padding: 0;
+    margin:0;
+}
+
+
+.sectionTwoText{
+    margin:0px;
+    padding:0px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 2vw;
+}
+
+.sectionTwoText p {
+    margin:0px;
+    padding:0px;
+    font-size: 1.1vw;
+    width:90%;
+}
+.sectionTwoBottom{
+    width:100%;
+    height:200px;
+    background:#3E4C62;
+    opacity: 0.65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:0px;
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+
+    .sectionTwoTop{
+        height:100px;
+        justify-content:start;
+    }
+
+    .sectionTwoText p {
+        margin:0px;
+        padding:0px;
+        font-size: 2.1vw;
+        width:90%;
+    }
+    .sectionTwoBottom{
+        height:100px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    .sectionTwoTop{
+        height:100px;
+        justify-content:start;
+    }
+
+    .sectionTwoText p {
+        margin:0px;
+        padding:0px;
+        font-size: 2.1vw;
+        width:90%;
+    }
+    .sectionTwoBottom{
+        height:120px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    .sectionTwoTop{
+        height:100px;
+        justify-content:start;
+    }
+
+    .sectionTwoText p {
+        margin:0px;
+        padding:0px;
+        font-size: 2.1vw;
+        width:90%;
+    }
+    .sectionTwoBottom{
+        height:120px;
+     }
+
+}
+

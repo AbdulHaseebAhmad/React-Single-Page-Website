@@ -1,0 +1,32 @@
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;  
+    width:40%;
+   }
+
+
+.sectionOne span{
+    font-size: 5vw;
+    font-weight: 400;
+    line-height:4.7vw;
+ }
+
+ .sectionOne span:nth-child(n+1){
+    color:#4D4D4D;
+    letter-spacing: 0.8vw;
+}
+
+.sectionOne span:nth-child(n+2){
+    color:#414F6B;
+    letter-spacing: 1.1vw;  
+  }
+
+  @media screen and (min-width:320px) and (max-width:600px) {
+    .sectionOne{
+      margin-top:-10px;
+    }
+  }
+
+   

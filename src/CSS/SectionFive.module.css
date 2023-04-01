@@ -1,0 +1,58 @@
+
+.boardContainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width:45%;
+    height:75%;
+    margin-top:-10px;
+
+    
+ }
+.board{
+    width:300px;
+    height:220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245,247,249,0.6);
+     
+  }
+
+.boardTitle{
+    color:#414F6B;
+    font-weight: bolder;
+    font-size:38px;
+    margin:0px;
+    width:55%;
+    align-self: self-start;
+}
+
+
+
+.table{
+    width:80%;
+    font-weight:400;
+    gap:10px;
+}
+
+.table tr{
+    width:100%;
+    font-size: 18px;
+    color:black;
+    opacity:0.79;
+    text-align: center;
+ }
+
+.table tr:nth-child(2n+3){
+    height:35px;
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+    .boardContainer{
+        margin:0px auto;
+        width:90%;
+        height:50%;
+    }
+}

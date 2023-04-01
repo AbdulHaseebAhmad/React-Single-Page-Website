@@ -1,0 +1,101 @@
+
+.nav{
+    width:97vw;
+    padding:200px 10px;
+    margin:0px;
+    height:35px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.5vw;
+    gap:20%;
+}
+
+
+
+.logoHolder{
+    width:10%;
+    height:38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkHolder{
+    height:38px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap:30px;
+    flex-basis: 30%;
+    color:white;}
+
+.linkHolder a{
+    text-decoration: none;
+    color:white;
+    border-bottom: 1px solid white;
+    font-weight: 500;
+    padding-bottom: 2px;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .nav{
+        width:90%;
+    }
+
+    .logoHolder{
+        width:8%;
+        height:28px;
+    }
+
+    .linkHolder{
+        flex-basis:60%;
+        font-size:2.5vw;
+    }
+
+    .logoHolder img{
+        width:80%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+    .nav{
+        width:90%;
+    }
+
+    .logoHolder{
+        width:7%;
+        height:28px;
+    }
+
+    .linkHolder{
+        flex-basis:60%;
+        font-size:2.5vw;
+    }
+
+    .logoHolder img{
+        width:4.5vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    .nav{
+        width:90%;
+    }
+
+    .logoHolder{
+        width:7%;
+        height:28px;
+    }
+
+    .linkHolder{
+        flex-basis:60%;
+        font-size:2.5vw;
+    }
+
+    .logoHolder img{
+        width:4.5vw;
+    }
+}

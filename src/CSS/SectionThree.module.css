@@ -1,0 +1,145 @@
+.sectionThree{
+    width:99%;
+    height:100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:30px 0px;
+    gap:20px;
+   
+}
+
+.sectionThreeTop{
+    width:60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+ }
+
+.textBox{    
+    width:25%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;;
+    
+}
+
+.O1{    
+    height:100%;
+    font-size: 110px;
+    font-weight: 400;
+    margin:0px;
+    padding:0px;
+    color:#697A97;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.Histroy{    
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+.historyText{    
+
+    padding: 0;
+    margin:0;
+    font-size: 20px;
+    color:#414F6B;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.square{    
+
+    width:15px;
+    height:15px;
+    background: #6D7E98;
+    padding: 0;
+    margin:0;
+}
+
+
+.sectionTwoText{    
+
+    margin:0px;
+    padding:0px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionTwoText p {
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+    width:90%;
+    line-height: 2vw;
+
+}
+.sectionTwoBottom{
+    width:100%;
+    height:200px;
+    background:#3E4C62;
+    opacity: 0.65;
+}
+
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .sectionThree{
+         height:120px;}
+
+    .sectionThreeTop{
+            flex-direction: column;
+             height:max-content;
+            padding:5px;}
+
+    .textBox{
+         width:90%;
+        justify-content: start;}
+
+        .sectionTwoText p {
+            margin:0px;
+            padding:0px;
+            font-size: 2.2vw;
+            width:90%;
+            line-height: 11px;
+        }
+
+ 
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+    .sectionThree{
+         height:120px;}
+
+    .sectionThreeTop{
+            flex-direction: column;
+             height:max-content;
+            padding:5px;}
+
+    .textBox{
+         width:90%;
+        justify-content: start;}
+
+        .sectionTwoText p {
+            margin:0px;
+            padding:0px;
+            font-size: 2.2vw;
+            width:90%;
+            line-height: 15px;
+        }
+
+ 
+}

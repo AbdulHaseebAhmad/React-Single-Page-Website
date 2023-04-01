@@ -1,0 +1,23 @@
+.container{
+    width:18%;
+    height:80%;
+    object-fit: contain;  
+     box-sizing: content-box;
+ 
+}
+
+.image{
+ width:100%;
+ height:100%;
+ object-fit: scale-down;
+ margin:0px;
+ padding:0px;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    border:2px solid #6D7E98;
+     transition: all 0.5s ease-in-out;
+     cursor: pointer;
+
+}
